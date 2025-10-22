@@ -1,0 +1,26 @@
+body{
+    background-image:url(foto.jpg);
+}
+
+#red{
+   
+    color:rgb(119, 24, 24)
+
+}
+#green{
+    color:rgb(55, 214, 55)
+}
+#blue{
+    color: rgb(90, 25, 255)
+
+
+}
+
+h2{
+    color: red;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: aliceblue;
+}

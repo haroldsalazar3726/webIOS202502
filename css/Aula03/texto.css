@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap');
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align:center;
+    text-shadow: -10px 20px 5px rgb(148, 50, 205); 
+    
+}
+p{
+    font-family: "BBH Sans Bogle", sans-serif;
+    text-align:center;
+    width: 600px;
+}
