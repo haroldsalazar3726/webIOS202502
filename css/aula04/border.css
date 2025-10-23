@@ -1,0 +1,14 @@
+h1 {
+    
+    border-width: 10px;
+    border-color: black;
+    border-style:double;
+}
+
+p{
+    /*podemos criar bordas de maneiro obreviada utilizando apenas a propriedade border.
+    border recebe 3 valores, sendo eles: tamanho (10px)
+    tipo(double)
+    cor (black) */
+    border: 10px   dashed black;
+}
