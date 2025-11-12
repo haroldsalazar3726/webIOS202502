@@ -1,0 +1,76 @@
+/* Resetando as margens de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garantir que bordas e padding sejam considerados nas dimensões */
+}
+
+/* Centralizando o conteúdo da página */
+body {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    height: 100vh;            /* Altura da tela inteira */
+    background-color: rgb(1, 1, 10); /* Cor de fundo da página */
+}
+
+/* Estilo do header */
+header {
+    background-color: rgb(255, 0, 0); /* Cor de fundo vermelha */
+    display: flex;
+    justify-content: space-around;    /* Espaça os itens dentro do header */
+    width: 100%;                      /* Header ocupa a largura toda */
+    padding: 10px 0;                  /* Espaçamento interno */
+}
+
+/* Estilo da classe quadrado */
+.quadrado {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;  /* Borda preta */
+    background-color: brown;  /* Cor de fundo marrom */
+    margin: 20px;
+}
+
+/* Container centralizado */
+#container {
+    display: flex;
+    justify-content: center;   /* Centraliza horizontalmente */
+    align-items: center;       /* Centraliza verticalmente */
+    flex-direction: column;    /* Organiza os itens em coluna */
+    height: 500px;             /* Ajuste a altura do container conforme necessário */
+    background-color: rgb(1, 1, 10);
+    width: 100%;               /* Largura total */
+    padding: 20px;             /* Espaçamento interno */
+}
+
+/* Estilo da imagem */
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover; /* Garante que a imagem ocupe o espaço sem distorcer */
+}
+
+/* Estilo do título h2 */
+h2 {
+    color: red;
+    text-align: center;  /* Centraliza o texto */
+    margin-top: 20px;     /* Espaçamento superior */
+}
+
+/* Estilo do botão */
+button {
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;   /* Espaçamento superior do botão */
+    background-color: blue; /* Cor de fundo do botão */
+    color: white;       /* Cor do texto */
+    border: none;       /* Remove a borda */
+    cursor: pointer;    /* Altera o cursor para indicar que o botão é clicável */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 16px;    /* Tamanho da fonte */
+}
+
+button:hover {
+    background-color: darkblue; /* Muda a cor quando o botão é sobrevoado */
+}

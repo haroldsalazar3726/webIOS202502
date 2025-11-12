@@ -1,0 +1,41 @@
+:root {
+    --corPrincipal: red;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.quadrado {
+    width: 200px; 
+    height: 200px; 
+    background-color: blue;
+}
+
+.quadrado:hover {
+    width: 200px; 
+    height: 200px;
+    background-color: brown;
+}
+
+a:link {
+    color: brown;
+    font: size 50px;
+}
+h1 {
+    color: var(--corPrincipal);
+    
+}
+span {
+    background-color:var(--corPrincipal);
+}
+p:first-child {
+color: blue;
+}
+
+#shrek::first-letter {
+    font: size 50px;
+}
